@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Kosci
 //
-//  Created by Schelung on 07/08/2018.
+//  Created by Patisonek on 07/08/2018.
 //  Copyright © 2018 Patisonek. All rights reserved.
 //
 

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A7FAFAA7211A2340003CC8AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FAFAA6211A2340003CC8AE /* AppDelegate.swift */; };
-		A7FAFAA9211A2340003CC8AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FAFAA8211A2340003CC8AE /* ViewController.swift */; };
+		A7FAFAA9211A2340003CC8AE /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FAFAA8211A2340003CC8AE /* MainController.swift */; };
 		A7FAFAAC211A2340003CC8AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FAFAAA211A2340003CC8AE /* Main.storyboard */; };
 		A7FAFAAE211A2340003CC8AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7FAFAAD211A2340003CC8AE /* Assets.xcassets */; };
 		A7FAFAB1211A2340003CC8AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FAFAAF211A2340003CC8AE /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		A7FAFAA3211A2340003CC8AE /* Kosci.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kosci.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7FAFAA6211A2340003CC8AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7FAFAA8211A2340003CC8AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7FAFAA8211A2340003CC8AE /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		A7FAFAAB211A2340003CC8AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7FAFAAD211A2340003CC8AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7FAFAB0211A2340003CC8AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +54,22 @@
 		A7FAFAA5211A2340003CC8AE /* Kosci */ = {
 			isa = PBXGroup;
 			children = (
+				A7FAFAB9211A2BBE003CC8AE /* Controller */,
 				A7FAFAA6211A2340003CC8AE /* AppDelegate.swift */,
-				A7FAFAA8211A2340003CC8AE /* ViewController.swift */,
 				A7FAFAAA211A2340003CC8AE /* Main.storyboard */,
 				A7FAFAAD211A2340003CC8AE /* Assets.xcassets */,
 				A7FAFAAF211A2340003CC8AE /* LaunchScreen.storyboard */,
 				A7FAFAB2211A2340003CC8AE /* Info.plist */,
 			);
 			path = Kosci;
+			sourceTree = "<group>";
+		};
+		A7FAFAB9211A2BBE003CC8AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7FAFAA8211A2340003CC8AE /* MainController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7FAFAA9211A2340003CC8AE /* ViewController.swift in Sources */,
+				A7FAFAA9211A2340003CC8AE /* MainController.swift in Sources */,
 				A7FAFAA7211A2340003CC8AE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
