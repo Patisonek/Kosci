@@ -35,13 +35,7 @@ class MainController: UIViewController {
         
         randomDiceIndex1 = Int(arc4random_uniform(6))
         randomDiceIndex2 = Int(arc4random_uniform(6))
-<<<<<<< HEAD
-        
-        diceImageView1.image = UIImage(named: diceArray[randomDiceIndex1])
-        diceImageView2.image = UIImage(named: diceArray[randomDiceIndex2])
-=======
-       
->>>>>>> 9b603b91f498bca4149b39c5c389a1edae54a360
+
     }
     
 }
