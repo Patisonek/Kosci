@@ -28,6 +28,7 @@ class MainController: UIViewController {
         
         updateDiceImg()
         
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -40,9 +41,21 @@ class MainController: UIViewController {
     @IBAction func rollButtonPressed(_ sender: UIButton) {
         
       updateDiceImg()
+
         
     }
     
+    
+    @IBAction func holdButton(_ sender: UILongPressGestureRecognizer) {
+        
+      updateDiceImg()
+        
+    
+    }
+    
+    
+    
+   
     //MARK: - My Methods
     func updateDiceImg(){
         
